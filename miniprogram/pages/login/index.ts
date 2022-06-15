@@ -1,13 +1,24 @@
-// pages/index/index.ts
+import { login } from "../../api/user"
+
+// pages/login/index.ts
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
+        username : '',
+        password : '',
 
     },
 
+    onLogin() {
+        login({username : this.data.username, password : this.data.password})
+    },
+
+    onChange() {
+
+    },
     /**
      * 生命周期函数--监听页面加载
      */

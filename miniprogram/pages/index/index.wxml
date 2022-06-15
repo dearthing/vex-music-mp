@@ -1,6 +1,2 @@
-<view class="Page">
-    <view class="title">Hello World</view>
-    <view class="btn">
-        <van-button type="primary" bindtap="hi">发送请求</van-button>
-    </view>
-</view>
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
